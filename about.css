@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-container {
+    max-width: 100%;
+    background-image: url("/Images/1183574.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 925px;
+    display: grid;
+    grid-template-columns: 10vw auto auto 20vw;
+    grid-template-rows: 25vh auto 25vh;
+}
+.about-text-section {
+    grid-row: 2;
+    grid-column: 2;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    padding: 2vw 3vw;
+    border-radius: 1.5vw;
+}
+.about {
+    position: absolute;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: auto;
+    -webkit-user-select: none;
+    cursor: default;
+    color: black;
+}
+#about-h3 {
+    top: 48vh;
+    left: 42.3vw;
+    font-size: 1.5vw;
+    padding-right: 25vw;
+    font-weight: 900;
+    text-align: left;
+    height: auto;
+    -webkit-user-select: none;
+    cursor: default;
+    color: black;  
+}
+#about-head {
+    top: 37vh;
+    left: 24.3vw;
+    font-size: 5vw;
+    font-weight: 900;
+    text-align: center;
+    height: auto;
+    -webkit-user-select: none;
+    cursor: default;
+    color: black;
+}
+#about-text {
+    padding-right: 26.5vw;
+    top: 67vh;
+    left: 42.3vw;
+    font-size: 1.3vw;
+    text-align: left;
+}
+#about-text-1 {
+    padding-right: 26vw;
+    top: 87vh;
+    left: 42.3vw;
+    font-size: 1.3vw;
+    text-align: left;
+}
+
+#about-img {
+    width: 40vw;
+    transform: translate(50vw, 36vh);
+    border-radius: 1.5vw;
+    border-color: white;
+}
+
+@media only screen and (max-width: 760px) {
+    .about-container {
+        max-width: 100%;
+        background-image: url("/Images/1183574.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 20vw 60vw 20vw;
+        grid-template-rows: 25vh 25vh 45vh 5vh;
+    }
+    .about-text-section {
+        grid-row: 3 / 4;
+        grid-column: 2;
+        background-color: rgba(255, 255, 255, 0.5) !important;
+        padding: 2vw 3vw;
+        border-radius: 1.5vw;
+    }
+    .about {
+        position: absolute;
+        max-width: 100%;
+        text-align: center;
+        height: auto;
+        -webkit-user-select: none;
+        cursor: default;
+        color: black;
+    }
+    .img-section {
+        grid-row: 1 / 2;
+        grid-column: 1;
+    }
+    #about-h3 {
+        top: 63vh;
+        left: 62.5vw;
+        font-size: 2.1vw;
+        width: 75vw;
+    }
+    #about-head {
+        top: 56vh;
+        left: 40vw;
+        font-size: 5.5vmax;
+        width: 75vw;
+    }
+    #about-text {
+        top: 74vh;
+        left: 62.5vw;
+        font-size: 1.65vmax;
+        width: 75vw;
+    }
+    #about-text-1 {
+        padding-right: 26vw;
+        top: 87vh;
+        left: 62.5vw;
+        font-size: 1.65vmax;
+        width: 75vw;
+        text-align: left;
+    }
+    
+    #about-img {
+        min-width: 60vw;
+        transform: translate(20vw, 6vh);
+        border-radius: 1.5vw;
+        border-color: white;
+    }
+}
