@@ -145,6 +145,12 @@ button#prev {
     color: black;
 }
 
+@media only screen and (max-width: 1512px) {
+    .gallery {
+        margin-left: 10vw;
+    }
+}
+
 @media only screen and (max-width: 1300px) {
     .gallery {
         margin-left: 18vw;
