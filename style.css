@@ -134,7 +134,7 @@ a {
 }
 
 .home-page-container:nth-child(2) {
-    background: url(/Videos/7train.mp4) no-repeat center/cover;
+    background: url("./Videos/7train.mp4") no-repeat center/cover;
     z-index: -2;
 }
 #myVideo {
