@@ -154,7 +154,7 @@ a {
     cursor: default;
 }
 .home-page-container:nth-child(3) {
-    background-image: url("Images/IMG_3455.JPG");
+    background-image: url("./Images/IMG_3455.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -176,7 +176,7 @@ a {
 }
 
 .home-page-container:last-child {
-    background-image: url("Images/campus-photo-2000px.jpg");
+    background-image: url("./Images/campus-photo-2000px.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

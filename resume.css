@@ -24,7 +24,7 @@
     grid-template-columns: 10vw 40vw 40vw 10vw;
     grid-template-rows: 15vh auto auto auto auto auto 15vh;
     gap: 1vw;
-    background: url("/Images/846661.png");
+    background: url("./Images/846661.png");
     background-repeat: no-repeat;
     background-size: cover;
     bottom: 0;
@@ -112,7 +112,7 @@ ul {
 
 
 .resume-container:nth-child(2) {
-    background-image: url("/Images/laptop-background.webp");
+    background-image: url("./Images/laptop-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 20vw 50vw 20vw;
