@@ -73,7 +73,7 @@ a {
     transition: all 0.4s ease-out;
 }
 .home-page-container {
-    background: url("/Images/117864426_2654452321470341_5699155821384263395_o.jpg") 
+    background: url("Images/117864426_2654452321470341_5699155821384263395_o.jpg") 
     no-repeat center / cover;
     bottom: 0;
     display: flex;
