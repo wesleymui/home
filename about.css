@@ -9,7 +9,7 @@
     background-image: url("./Images/1183574.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 925px;
+    height: 64em;
     display: grid;
     grid-template-columns: 10vw auto auto 20vw;
     grid-template-rows: 25vh auto 25vh;
