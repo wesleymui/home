@@ -133,7 +133,7 @@ a {
 }
 
 .home-page-container:nth-child(2) {
-    background: url("/Images/Jackson-Heights-Queens-copyright-James-Andrews-Dreamstime-1600x800-1.jpg") no-repeat center/cover;
+    background: url("./Images/Jackson-Heights-Queens-copyright-James-Andrews-Dreamstime-1600x800-1.jpg") no-repeat center/cover;
     z-index: -2;
 }
 #myVideo {
