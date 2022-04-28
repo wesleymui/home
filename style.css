@@ -133,7 +133,7 @@ a {
 }
 
 .home-page-container:nth-child(2) {
-    background: url("./Videos/7train.mp4") no-repeat center/cover;
+    background: url("/Images/Jackson-Heights-Queens-copyright-James-Andrews-Dreamstime-1600x800-1.jpg") no-repeat center/cover;
     z-index: -2;
 }
 #myVideo {
@@ -147,6 +147,8 @@ a {
     max-width: 100%;
     font-size: 6.5vw;
     top: 50vh;
+    background-color: var(--transparent-black);
+    padding: 1vmax;
     text-align: center;
     font-weight: 900;
     -webkit-user-select: none;
@@ -167,6 +169,8 @@ a {
     width: 75vw;
     top: 30vw;
     left: 50vw;
+    background-color: var(--transparent-black);
+    padding: 1vmax;
     transform: translate(-50%, -50%);
     font-size: 6.5vw;
     font-weight: 900;
@@ -189,6 +193,8 @@ a {
     width: 75vw;
     top: 30vw;
     left: 50vw;
+    background-color: var(--transparent-black);
+    padding: 1vmax;
     transform: translate(-50%, -50%);
     font-size: 6.5vw;
     font-weight: 900;
