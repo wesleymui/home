@@ -279,7 +279,33 @@ input[type=text] {
     background: white;
 }
 
-
+@media only screen and (max-height: 763px) {
+    #home-page-text {
+        position: absolute;
+        top: 40vh;
+        right: 55vw;
+        max-width: 100%;
+        font-size: 5vw;
+        font-weight: 900;
+        height: auto;
+        -webkit-user-select: none;
+        cursor: default;
+        animation: fadein 4s;
+    }
+    
+    #minor-text {
+        position: absolute;
+        top: 52vh;
+        right: 58vw;
+        max-width: 100%;
+        font-size: 2vw;
+        font-weight: 900;
+        height: auto;
+        -webkit-user-select: none;
+        cursor: default;
+        animation: fadein 4s;
+    }
+}
 @media only screen and (max-width: 1350px) {
     #button {
         bottom: 36vh;
