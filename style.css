@@ -51,7 +51,7 @@ a {
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     margin-right: 3vw;
     list-style: none;
     text-align: center;
@@ -203,13 +203,14 @@ a {
 
 .footerbar {
     display: grid;
-    grid-template-columns: repeat(4, 25vw);
+    grid-template-columns: 30vw, 20vw, 50vw;
     align-items: center;
     height: 90px;
 }
 .footer-menu {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 5vw 5vw;
+    margin-left: 3vw;
     list-style: none;
 }
 .footer-icons {
@@ -218,9 +219,9 @@ a {
     cursor: pointer;
 }
 #connect-form {
-    grid-column: 3 / 5;
+    grid-column: 3;
     width: 40vw;
-    justify-self: center;
+    justify-self: right;
 }
 #connect-message {
     font-size: 20px;

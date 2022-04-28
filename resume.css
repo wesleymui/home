@@ -17,13 +17,12 @@
 
 
 .resume-container {
-    position: sticky;
     display: grid;
     grid-template-columns: 10vw 40vw 40vw 10vw;
-    grid-template-rows: 15vh auto auto auto auto auto 15vh;
+    grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto auto 15vh;
     gap: 1vw;
     background: url("./Images/846661.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     bottom: 0;
     z-index: -1;
@@ -77,7 +76,7 @@
 
 .resume {
     grid-column: 2 / 4;
-    grid-row: 4;
+    grid-row: 4 / 8;
     align-content: center;
     justify-content: center;
     background-color: var(--transparent-black);
@@ -93,6 +92,11 @@
 }
 .resume p {
      margin-bottom: 1vh;
+}
+
+iframe {
+    z-index: auto;
+    height: 1000px;
 }
 
 
