@@ -104,6 +104,19 @@ a {
     cursor: default;
     animation: fadein 4s;
 }
+
+#minor-text {
+    position: absolute;
+    top: 52vh;
+    right: 60vw;
+    max-width: 100%;
+    font-size: 2vw;
+    font-weight: 900;
+    height: auto;
+    -webkit-user-select: none;
+    cursor: default;
+    animation: fadein 4s;
+}
 @keyframes fadein {
     0% {
         opacity: 0%;
