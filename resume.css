@@ -14,9 +14,7 @@
     border: 0;
 }
 
-.nav-menu {
-    margin-right: 4vw;
-}
+
 
 .resume-container {
     position: sticky;
@@ -70,43 +68,30 @@
     /*transform: translate(-15vw, -23.5vh);*/
 }
 
-.education {
-    grid-column: 2;
-    grid-row: 3/4;
-    background-color: var(--transparent-black);
-    border-radius: 1vw;
-    padding-left: 2vw;
-    padding-top: 2vh;
-    padding-bottom: 3vh;
-    padding-right: 2vh;
-}
-.education p {
+#resume-name {
+    position: relative;
+    font-size: 3vw;
+    margin-top: 1vw;
     margin-bottom: 1vh;
 }
-#education-header {
-    font-size: 3vw;
-}
-ul {
-    padding-left: 2vw;
-}
 
-.experience {
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
+.resume {
+    grid-column: 2 / 4;
+    grid-row: 4;
     align-content: center;
     justify-content: center;
     background-color: var(--transparent-black);
     border-radius: 1vw;
-    padding-top: 2vh;
-    padding-left: 2vw;
+    padding-top: 3vh;
+    padding-left: 3vw;
     padding-bottom: 3vh;
-    padding-right: 2vh;
+    padding-right: 3vh;
 
 }
-#experience-header {
-    font-size: 3vw;
+#resume-header {
+    font-size: 5vw;
 }
-.experience p {
+.resume p {
      margin-bottom: 1vh;
 }
 
